@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, rgb(122, 231, 226), #bb02ff);
+  background-attachment: fixed;
+}
+
+.container {
+  position: relative;
+  max-width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background: #ffff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgb(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.container:hover .card {
+  filter: blur(1px);
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+.container .card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.container .card .circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  clip-path: circle(250px at center 0);
+  text-align: center;
+}
+
+.container .card .circle img {
+  width: 100%;
+}
+
+.container .card .content {
+  position: absolute;
+  bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.container .card .content h5 {
+  color: #666;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; */
+}
+
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: black;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetails matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    key="1979600"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="circle"
+      >
+        <img
+          alt=""
+          src="https://static.tvmaze.com/uploads/images/medium_portrait/105/264401.jpg"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <h5>
+          Minute Whambam 90's Ride
+        </h5>
+        <a
+          href="https://www.tvmaze.com/episodes/1979386/patis-mexican-table-9x09-cooking-for-my-crew-in-sonora"
+          target="_blank"
+        >
+          Buy Now
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    key="1979601"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="circle"
+      >
+        <img
+          alt=""
+          src="https://static.tvmaze.com/uploads/images/medium_portrait/105/264401.jpg"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <h5>
+          Minute Whambam 90's Ride
+        </h5>
+        <a
+          href="https://www.tvmaze.com/episodes/1979386/patis-mexican-table-9x09-cooking-for-my-crew-in-sonora"
+          target="_blank"
+        >
+          Buy Now
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
